@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/Users/inaba/Documents/KICad/ch340k-dl/ch340k.kicad_sch</source>
+    <date/>
+    <tool>Eeschema (6.0.2-0)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>M5Stamp Downloader</title>
+        <company>JK1MLY</company>
+        <rev>0</rev>
+        <date>2022-05-03</date>
+        <source>ch340k.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>0.1u</value>
+      <footprint>UserLib:0603</footprint>
+      <datasheet>P-16143</datasheet>
+      <fields>
+        <field name="Footprint">UserLib:0603</field>
+        <field name="Reference">C1</field>
+        <field name="Value">0.1u</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Datasheet" value=""/>
+      <property name="Footprint" value="UserLib:0603"/>
+      <property name="Reference" value="C1"/>
+      <property name="Value" value="0.1u"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ch340k.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>35abd009-f162-4306-8d5a-1b87e64adc41</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>10u</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</footprint>
+      <datasheet>P-10590</datasheet>
+      <fields>
+        <field name="Footprint">Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</field>
+        <field name="Reference">C2</field>
+        <field name="Value">10u</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Datasheet" value=""/>
+      <property name="Footprint" value="Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"/>
+      <property name="Reference" value="C2"/>
+      <property name="Value" value="10u"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ch340k.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b7065926-9d3c-4d05-8858-e5d67b0956da</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>0.1u</value>
+      <footprint>UserLib:0603</footprint>
+      <datasheet>P-16143</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ch340k.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>edb3ae51-3e8b-41cd-8ee5-db3a748b710e</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>10u</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</footprint>
+      <datasheet>P-10590</datasheet>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ch340k.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>521b2398-56fa-4338-8610-870ca4d61557</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>0.1u</value>
+      <footprint>UserLib:0603</footprint>
+      <datasheet>P-16143</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ch340k.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cedb2f06-e72d-4061-a9b9-42b4844a8318</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>LED</value>
+      <footprint>UserLib:0603</footprint>
+      <datasheet>I-11878</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ch340k.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000629ff5ca</tstamps>
+    </comp>
+    <comp ref="F1">
+      <value>Fuse</value>
+      <footprint>UserLib:0603</footprint>
+      <datasheet>P-14311</datasheet>
+      <libsource lib="Device" part="Fuse" description="Fuse"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ch340k.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000629fad5e</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>USB_B_Mini</value>
+      <footprint>digikey-footprints:USB_Mini_B_Female_aki</footprint>
+      <datasheet>C-02235</datasheet>
+      <libsource lib="Connector" part="USB_B_Mini" description="USB Mini Type B connector"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ch340k.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000062a03dcd</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x06_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical</footprint>
+      <datasheet>C-01627</datasheet>
+      <libsource lib="Connector" part="Conn_01x06_Male" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ch340k.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000629d3e60</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>SSM3K7002BFU</value>
+      <footprint>Package_TO_SOT_SMD:SOT-323_SC-70</footprint>
+      <datasheet>I-08576</datasheet>
+      <fields>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-323_SC-70</field>
+        <field name="Reference">Q1</field>
+        <field name="Value">SSM3K7002BFU</field>
+      </fields>
+      <libsource lib="Device" part="Q_NMOS_SGD" description="N-MOSFET transistor, source/gate/drain"/>
+      <property name="Datasheet" value=""/>
+      <property name="Footprint" value="Package_TO_SOT_SMD:SOT-323_SC-70"/>
+      <property name="Reference" value="Q1"/>
+      <property name="Value" value="SSM3K7002BFU"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ch340k.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>06851bda-9f03-49a7-ba49-053d03df410c</tstamps>
+    </comp>
+    <comp ref="Q2">
+      <value>SSM3K7002BFU</value>
+      <footprint>Package_TO_SOT_SMD:SOT-323_SC-70</footprint>
+      <datasheet>I-08576</datasheet>
+      <libsource lib="Device" part="Q_NMOS_SGD" description="N-MOSFET transistor, source/gate/drain"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ch340k.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>63030d07-6395-4598-9c99-948134363bcf</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>0</value>
+      <footprint>UserLib:0603</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ch340k.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000629f6c2d</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>NM</value>
+      <footprint>UserLib:0603</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ch340k.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000629f448e</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>1k</value>
+      <footprint>UserLib:0603</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ch340k.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000629fc2f1</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>2.2k</value>
+      <footprint>UserLib:0603</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ch340k.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f3ef3f37-f50d-40bb-9544-5337976dad80</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>CH340K</value>
+      <footprint>Package_SO:SSOP-10_3.9x4.9mm_P1.00mm</footprint>
+      <datasheet>I-16306</datasheet>
+      <libsource lib="Interface_USB" part="CH340K" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ch340k.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000629d47e9</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x06_Male">
+      <description>Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x06_Male</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="USB_B_Mini">
+      <description>USB Mini Type B connector</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>USB*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_B_Mini</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBUS" type="power_out"/>
+        <pin num="2" name="D-" type="bidirectional"/>
+        <pin num="3" name="D+" type="bidirectional"/>
+        <pin num="4" name="ID" type="passive"/>
+        <pin num="5" name="GND" type="power_out"/>
+        <pin num="6" name="Shield" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Polarized">
+      <description>Polarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Fuse">
+      <description>Fuse</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>*Fuse*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Fuse</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Q_NMOS_SGD">
+      <description>N-MOSFET transistor, source/gate/drain</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_NMOS_SGD</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="S" type="passive"/>
+        <pin num="2" name="G" type="input"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Interface_USB" part="CH340K">
+      <footprints>
+        <fp>MSOP*3x3mm*P0.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Interface_USB_CH340K</field>
+        <field name="Footprint">Package_SO:MSOP-10_3x3mm_P0.5mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="UD+" type="bidirectional"/>
+        <pin num="2" name="UD-" type="bidirectional"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="~{DTR}" type="output"/>
+        <pin num="5" name="~{CTS}" type="input"/>
+        <pin num="6" name="~{RTS}" type="output"/>
+        <pin num="7" name="VCC" type="power_in"/>
+        <pin num="8" name="TXD" type="output"/>
+        <pin num="9" name="RXD" type="input"/>
+        <pin num="10" name="V3" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="Interface_USB">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Interface_USB.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J1" pin="5" pinfunction="GND" pintype="power_out"/>
+      <node ref="J2" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="2" name="Net-(C1-Pad1)">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="F1" pin="1" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="VCC" pintype="power_in"/>
+    </net>
+    <net code="3" name="Net-(C3-Pad1)">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="V3" pintype="passive"/>
+    </net>
+    <net code="4" name="Net-(C5-Pad1)">
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="J2" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="5" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+    </net>
+    <net code="6" name="Net-(F1-Pad2)">
+      <node ref="F1" pin="2" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="VBUS" pintype="power_out"/>
+    </net>
+    <net code="7" name="Net-(J1-Pad2)">
+      <node ref="J1" pin="2" pinfunction="D-" pintype="bidirectional"/>
+      <node ref="U1" pin="2" pinfunction="UD-" pintype="bidirectional"/>
+    </net>
+    <net code="8" name="Net-(J1-Pad3)">
+      <node ref="J1" pin="3" pinfunction="D+" pintype="bidirectional"/>
+      <node ref="U1" pin="1" pinfunction="UD+" pintype="bidirectional"/>
+    </net>
+    <net code="9" name="Net-(J2-Pad1)">
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+    </net>
+    <net code="10" name="Net-(J2-Pad2)">
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U1" pin="9" pinfunction="RXD" pintype="input"/>
+    </net>
+    <net code="11" name="Net-(J2-Pad3)">
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="TXD" pintype="output"/>
+    </net>
+    <net code="12" name="Net-(J2-Pad4)">
+      <node ref="J2" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="Q2" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="13" name="Net-(Q1-Pad1)">
+      <node ref="Q1" pin="1" pinfunction="S" pintype="passive"/>
+      <node ref="Q2" pin="2" pinfunction="G" pintype="input"/>
+      <node ref="U1" pin="6" pinfunction="~{RTS}" pintype="output"/>
+    </net>
+    <net code="14" name="Net-(Q1-Pad2)">
+      <node ref="Q1" pin="2" pinfunction="G" pintype="input"/>
+      <node ref="Q2" pin="1" pinfunction="S" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="~{DTR}" pintype="output"/>
+    </net>
+    <net code="15" name="unconnected-(J1-Pad4)">
+      <node ref="J1" pin="4" pinfunction="ID" pintype="passive"/>
+    </net>
+    <net code="16" name="unconnected-(J1-Pad6)">
+      <node ref="J1" pin="6" pinfunction="Shield" pintype="passive"/>
+    </net>
+    <net code="17" name="unconnected-(U1-Pad5)">
+      <node ref="U1" pin="5" pinfunction="~{CTS}" pintype="input"/>
+    </net>
+  </nets>
+</export>
